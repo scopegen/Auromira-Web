@@ -1,0 +1,22 @@
+.custom-dot-list-style button{
+    background: white;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border: 1px solid #c525cc;
+    border-radius: 50%;
+}
+.react-multi-carousel-dot--active button{
+    background:  #c525cc;
+}
+
+.react-multi-carousel-track li:nth-child(1) img {
+    width:140px;
+}
+.react-multi-carousel-track li:nth-child(2) img {
+    width:140px;
+}
+
+.react-multi-carousel-dot-list{
+    bottom: initial;
+}
