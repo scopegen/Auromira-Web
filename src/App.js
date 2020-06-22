@@ -115,7 +115,6 @@ const Career = Loadable({
   loading: Loading
 });
 
-
 const App = () => {
 
    // eslint-disable-next-line react-hooks/rules-of-hooks
