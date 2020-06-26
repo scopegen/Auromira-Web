@@ -1,6 +1,9 @@
 import IconBar from "../IconBar";
 import React from 'react';
 
+
+import { Link as Router } from 'react-router-dom';
+
 function EventManagment() {
     window.scrollTo(0, 0); 
     return (
@@ -90,17 +93,12 @@ function EventManagment() {
 						<figure>
 							   <a className="example-image-link" href="images/events/case1.jpg" data-lightbox="example-set"> 
 							   <img src="images/events/case1.jpg" className="thumb-img" /></a>
-							                   
 							</figure>
 							
 							</div>
-							<h5 className="text-center mar-bot30 mar-top15"><a href="case_gupta.html">Gupta Distributors</a></h5>
+							<h5 className="text-center mar-bot30 mar-top15"><Router to="/casegupta">Gupta Distributors</Router></h5>
                         </div>
 						
-
-                       
-						
-
                          <div className="col-sm-6 col-md-4">
                             <div className="gal-detail thumb text-center hover06 pad-mar0">
 							<a className="example-image-link" href="images/events/case3.jpg" data-lightbox="example-set">
@@ -108,9 +106,8 @@ function EventManagment() {
                                <figure>
                                    <a className="example-image-link" href="images/events/case3.jpg" data-lightbox="example-set"> 
                                    <img src="images/events/case3.jpg" className="thumb-img"/></a>
-                                                        
                             </figure></div>
-							<h5 className="text-center mar-bot30 mar-top15"><a href="case_wonderworld.html">Wonder World</a></h5>
+							<h5 className="text-center mar-bot30 mar-top15"><Router to="/wonderworld">Wonder World</Router></h5>
                         </div>
 
                         
@@ -121,9 +118,8 @@ function EventManagment() {
                                </a>
                                <figure><a className="example-image-link" href="images/events/case4.jpg" data-lightbox="example-set"> 
                                <img src="images/events/case4.jpg" className="thumb-img" /></a>
-                                                      
                           </figure></div>
-							<h5 className="text-center mar-bot30 mar-top15"> <a href="case_assotech.html">Assotech Pride</a></h5>
+							<h5 className="text-center mar-bot30 mar-top15"><Router to="/assotech">Assotech Pride</Router></h5>
                         </div>
                   </div>				
 				</section>			

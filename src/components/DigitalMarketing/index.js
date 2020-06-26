@@ -1,6 +1,8 @@
 import React from 'react';
 import IconBar from '../IconBar';
 
+import { Link as Router } from 'react-router-dom';
+
 function DigitalMarketing() {
     window.scrollTo(0, 0); 
     React.useEffect(() => {
@@ -33,9 +35,6 @@ function DigitalMarketing() {
                     </div>
                 </div>
             </section>
-
-
-
 
             <div className="container">
                 <div className="inner-title  wow fadeInDown  animated mar-bot40">
@@ -171,7 +170,7 @@ function DigitalMarketing() {
                             </figure>
 
                         </div>
-                        <h5 className="text-center mar-bot30 mar-top15"><a href="case_gupta.html">Gupta Distributors</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/caseGupta">Gupta Distributors</Router></h5>
                     </div>
 
 
@@ -186,7 +185,7 @@ function DigitalMarketing() {
 
                             </figure>
                         </div>
-                        <h5 className="text-center mar-bot30 mar-top15"><a href="case_wonderworld.html">Wonder World</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/wonderworld">Wonder World</Router></h5>
                     </div>
 
                     <div className="col-sm-6 col-md-4">
@@ -198,7 +197,7 @@ function DigitalMarketing() {
 
                             </figure>
                         </div>
-                        <h5 className="text-center mar-bot30 mar-top15"> <a href="case_assotech.html">Assotech Pride</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/assotech">Assotech Pride</Router></h5>
                     </div>
                 </div>
             </section>

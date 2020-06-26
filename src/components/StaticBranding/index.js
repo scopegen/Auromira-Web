@@ -1,6 +1,9 @@
 import React from 'react';
 import IconBar from '../IconBar';
 
+
+import { Link as Router } from 'react-router-dom';
+
 function StaticBranding() {
     window.scrollTo(0, 0);
     return (
@@ -186,12 +189,8 @@ function StaticBranding() {
                             </figure>
 
                         </div>
-                        <h5 className="text-center mar-bot30 mar-top15"><a href="case_gupta.html">Gupta Distributors</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/caseGupta">Gupta Distributors</Router></h5>
                     </div>
-
-
-
-
 
                     <div className="col-sm-6 col-md-4">
                         <div className="gal-detail thumb text-center hover06 pad-mar0">
@@ -202,7 +201,7 @@ function StaticBranding() {
                                     <img src="images/events/case3.jpg" className="thumb-img" /></a>
 
                             </figure></div>
-                        <h5 className="text-center mar-bot30 mar-top15"><a href="case_wonderworld.html">Wonder World</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/wonderworld">Wonder World</Router></h5>
                     </div>
 
 
@@ -214,7 +213,7 @@ function StaticBranding() {
                                 <img src="images/events/case4.jpg" className="thumb-img" /></a>
 
                             </figure></div>
-                        <h5 className="text-center mar-bot30 mar-top15"> <a href="case_assotech.html">Assotech Pride</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"> <Router to="/assotech">Assotech Pride</Router></h5>
                     </div>
 
 

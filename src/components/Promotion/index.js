@@ -1,6 +1,8 @@
 import React from 'react';
 import IconBar from '../IconBar';
 
+import { Link as Router } from 'react-router-dom';
+
 function Promotion() {
     window.scrollTo(0, 0);
     return (
@@ -233,7 +235,7 @@ function Promotion() {
                             </figure>
 
                         </div>
-                        <h5 className="text-center mar-bot30 mar-top15"><a href="case_gupta.html">Gupta Distributors</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/caseGupta">Gupta Distributors</Router></h5>
                     </div>
 
 
@@ -249,7 +251,7 @@ function Promotion() {
                                     <img alt="" src="images/events/case3.jpg" className="thumb-img" /></a>
 
                             </figure></div>
-                        <h5 className="text-center mar-bot30 mar-top15"><a href="case_wonderworld.html">Wonder World</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/wonderworld">Wonder World</Router></h5>
                     </div>
 
 
@@ -261,9 +263,8 @@ function Promotion() {
                             </a>
                             <figure><a className="example-image-link" href="images/events/case4.jpg" data-lightbox="example-set">
                                 <img alt="" src="images/events/case4.jpg" className="thumb-img" /></a>
-
                             </figure></div>
-                        <h5 className="text-center mar-bot30 mar-top15"> <a href="case_assotech.html">Assotech Pride</a></h5>
+                        <h5 className="text-center mar-bot30 mar-top15"><Router to="/assotech">Assotech Pride</Router></h5>
                     </div>
 
 

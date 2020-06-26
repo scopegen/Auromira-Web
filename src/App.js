@@ -115,6 +115,32 @@ const Career = Loadable({
   loading: Loading
 });
 
+const CaseGupta = Loadable({
+  loader: () => import('./components/CaseGupta'),
+  loading: Loading
+});
+
+const WonderWorld = Loadable({
+  loader: () => import('./components/WonderWorld'),
+  loading: Loading
+});
+
+const Assotech = Loadable({
+  loader: () => import('./components/Assotech'),
+  loading: Loading
+});
+const Campsmartcity = Loadable({
+  loader: () => import('./components/Campsmartcity'),
+  loading: Loading
+});
+
+const Orimark = Loadable({
+  loader: () => import('./components/Orimark'),
+  loading: Loading
+});
+
+
+
 const App = () => {
 
    // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -148,7 +174,11 @@ const App = () => {
           <Route path="/privacyPolicy" component={PrivacyPolicy} />
           <Route path="/termsConditions" component={TermsConditions} />
           <Route path="/career" component={Career} />
-
+          <Route path="/caseGupta" component={CaseGupta} />
+          <Route path="/wonderworld" component={WonderWorld} />
+          <Route path="/assotech" component={Assotech} />
+          <Route path="/campsmartcity" component={Campsmartcity} />
+          <Route path="/orimark" component={Orimark} />
           <Footer/>
       </Router>
   );

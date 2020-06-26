@@ -1,6 +1,8 @@
 import IconBar from "../IconBar";
 import React from 'react';
 
+import { Link as Router } from 'react-router-dom';
+
 function SoftwareITProducts() {
     window.scrollTo(0, 0); 
     return (
@@ -28,8 +30,6 @@ Our Web Designing professionals are experts in analyzing, strategizing, developi
                 <h2 className="text-center mar-top44"><span>What We Do</span></h2>
        </div>
 	</div>
-
-
 
  <section className="section event  event-about parallax eventbg" id="event">
             <div className="container">
@@ -98,12 +98,8 @@ Our Web Designing professionals are experts in analyzing, strategizing, developi
 							</figure>
 							
 							</div>
-							<h5 className="text-center mar-bot30 mar-top15"><a href="case_gupta.html">Gupta Distributors</a></h5>
+							<h5 className="text-center mar-bot30 mar-top15"><Router to="/caseGupta">Gupta Distributors</Router></h5>
                         </div>
-						
-
-                       
-						
 
                          <div className="col-sm-6 col-md-4">
                             <div className="gal-detail thumb text-center hover06 pad-mar0">
@@ -114,10 +110,8 @@ Our Web Designing professionals are experts in analyzing, strategizing, developi
                                    <img src="images/events/case3.jpg" className="thumb-img" /></a>
                                                         
                             </figure></div>
-							<h5 className="text-center mar-bot30 mar-top15"><a href="case_wonderworld.html">Wonder World</a></h5>
+							<h5 className="text-center mar-bot30 mar-top15"><Router to="/wonderworld">Wonder World</Router></h5>
                         </div>
-                        
-                        
 
                        <div className="col-sm-6 col-md-4">
                             <div className="gal-detail thumb text-center hover06 pad-mar0">
@@ -127,12 +121,8 @@ Our Web Designing professionals are experts in analyzing, strategizing, developi
                                <img src="images/events/case4.jpg" className="thumb-img" /></a>
                                                       
                           </figure></div>
-							<h5 className="text-center mar-bot30 mar-top15"> <a href="case_assotech.html">Assotech Pride</a></h5>
+							<h5 className="text-center mar-bot30 mar-top15"> <Router to="/assotech">Assotech Pride</Router></h5>
                         </div>
-
-                       
-                         
-
                                       
                   </div>				
 				</section>

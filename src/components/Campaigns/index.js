@@ -1,6 +1,8 @@
 import React from 'react';
 import IconBar from '../IconBar';
 
+import { Link as Router } from 'react-router-dom';
+
 function Campaigns() {
     window.scrollTo(0, 0);
     return (
@@ -20,21 +22,18 @@ function Campaigns() {
                                 best possible way through effective and attention grabbing Campaigns. We, at Auromira draw on our unique expertise
                             and understanding of people to deliver value, insight and presentation that is sure to make a difference!</p>
 
-
-
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-
             <section class="section" style={{ marginTop: "50px" }}>
                 <div class="container text-center">
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                                <a href="camp_odishaglobal.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/og.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -44,10 +43,10 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                                <a href="camp_wonderworld.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/ww.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -57,11 +56,11 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
 
                             <div class="col-sm-6 col-md-4 animation">
-                                <a href="camp_capdeal.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/cr.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -71,14 +70,14 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                         </div>
                     </div>
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                                <a href="camp_assotech.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/ap.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -88,10 +87,10 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                                <a href="camp_kdc.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/kd.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -101,11 +100,11 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
 
                             <div class="col-sm-6 col-md-4 videos">
-                                <a href="camp_eyemira.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/em.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -115,14 +114,14 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                         </div>
                     </div>
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                                <a href="camp_freshbox.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/fb.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -132,10 +131,10 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                                <a href="camp_gupta.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/gd.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -145,11 +144,11 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
 
                             <div class="col-sm-6 col-md-4 animation">
-                                <a href="camp_hireanhour.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/hah.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -159,14 +158,14 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                         </div>
                     </div>
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                                <a href="camp_agmo.html">
+                                <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/agmo.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -176,10 +175,10 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                                <a href="camp_orimark.html">
+                            <Router to="/orimark">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/op.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -189,11 +188,11 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
 
                             <div class="col-sm-6 col-md-4 animation">
-                                <a href="camp_smartcity.html">
+                            <Router to="/campsmartcity">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/bsc.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -203,7 +202,7 @@ function Campaigns() {
                                             <p>Facebook and Instagram</p>
                                         </div>
                                     </div>
-                                </a>
+                                </Router>
                             </div>
                         </div>
                     </div>
