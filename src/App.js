@@ -76,8 +76,8 @@ const Campaigns = Loadable({
   loading: Loading
 });
 
-const Videos = Loadable({
-  loader: () => import('./components/Videos'),
+const Video = Loadable({
+  loader: () => import('./components/Video'),
   loading: Loading
 });
 
@@ -139,7 +139,20 @@ const Orimark = Loadable({
   loading: Loading
 });
 
+const Seo = Loadable({
+  loader: () => import('./components/Seo'),
+  loading: Loading
+});
 
+const SocialMediaManagment = Loadable({
+  loader: () => import('./components/SocialMediaManagment'),
+  loading: Loading
+});
+
+const OurWebsites = Loadable({
+  loader: () => import('./components/OurWebsites'),
+  loading: Loading
+});
 
 const App = () => {
 
@@ -166,7 +179,7 @@ const App = () => {
           <Route path="/aboutus" component={(AboutUs)} />
           <Route path="/contact" component={Contact} />
           <Route path="/campaigns" component={Campaigns} />
-          <Route path="/videos" component={Videos} />
+          <Route path="/video" component={Video} />
           <Route path="/photography" component={Photography} />
           <Route path="/animation" component={Animation} />
           <Route path="/design" component={Design} />
@@ -179,6 +192,9 @@ const App = () => {
           <Route path="/assotech" component={Assotech} />
           <Route path="/campsmartcity" component={Campsmartcity} />
           <Route path="/orimark" component={Orimark} />
+          <Route path="/seo" component={Seo} />
+          <Route path="/socialmediamanagment" component={SocialMediaManagment} />
+          <Route path="/ourwebsites" component={OurWebsites} />
           <Footer/>
       </Router>
   );

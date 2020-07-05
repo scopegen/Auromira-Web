@@ -23,9 +23,8 @@ function DigitalMarketing() {
                                 <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; Digital Marketing</h3>
                                 <p className="text-light font-bold text-uppercase">&nbsp; Make an online presence, DIGI-FY and
                             DIGNYFY your brand with a leading Advertising and Branding Company in India</p>
-                                <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035"
+                                <Router to="/contact" className="button"><b>Get in Touch</b></Router> <a href="tel:8917335035"
                                     className="button"><b>Call Now</b></a>
-
                                 <p className="text-white">Marketing Your Presence Is As Important As Creating Presence. Auromira
                                 Entertainment is a leading Advertising and Branding Company in India that deals in providing
                                 all round premium digital services and handles the challenges in digital marketing that
@@ -50,7 +49,7 @@ function DigitalMarketing() {
                                 <div className="feature-icon">
                                     <img alt="seo-icon" src="images/seo-icon.png" />
                                 </div>
-                                <h5 className="text-uppercase font-bold"><a href="seo.html">Search engine optimization </a></h5>
+                                <h5 className="text-uppercase font-bold"><Router to="/seo">Search engine optimization </Router></h5>
                                 <p className="text-muted">Get Your Brand’s Online Presence felt better with the best digital
                             marketing company in Bhubaneswar.</p>
                             </div>
@@ -61,8 +60,8 @@ function DigitalMarketing() {
                                     <div className="feature-icon">
                                         <img alt="human-activity" src="images/human-activity.png" />
                                     </div>
-                                    <h5 className="text-uppercase font-bold"><a href="social-media-management.html">Social media
-                                    management</a></h5>
+                                    <h5 className="text-uppercase font-bold"><Router to="/socialMediaManagment">Social media
+                                    management</Router></h5>
                                     <p className="text-muted">Rock Your Social Media and boost engagement with the best digital
                                 marketing company in Bhubaneswar.</p>
                                 </div>
@@ -73,7 +72,7 @@ function DigitalMarketing() {
                                 <div className="feature-icon">
                                     <img alt="web-design-icon" src="images/web-design-icon.png" />
                                 </div>
-                                <h5 className="text-uppercase font-bold"><a href="our-websites.html">Web design, Development </a>
+                                <h5 className="text-uppercase font-bold"><Router to="/ourwebsites">Web design, Development </Router>
                                 </h5>
                                 <p className="text-muted">Build world-className, fully customized and optimal websites with the best
                             digital marketing company in Odisha. </p>

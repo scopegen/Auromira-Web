@@ -35,11 +35,11 @@ function Header() {
                         <ul className="navigation-menu">
 
                             <li className="">
-                                <NavLink to="/" className="navMenuItem">Home</NavLink>
+                                <NavLink to="/"  className="navMenuItem">Home</NavLink>
                             </li>
 
                             <li className="">
-                                <NavLink to="/aboutus" className="navMenuItem">About Us</NavLink>
+                                <NavLink to="/aboutus"  className="navMenuItem">About Us</NavLink>
                             </li>
 
                             <li className="has-submenu">
@@ -47,32 +47,32 @@ function Header() {
                                 <ul className="submenu">
 
                                     <li>
-                                        <NavLink to="/digitalmarketing" className="navMenuItem">Digital Marketing</NavLink>
+                                        <NavLink to="/digitalmarketing"  className="navMenuItem">Digital Marketing</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/audiovisualphotography" className="navMenuItem">Audio Visual and photography</NavLink>
+                                        <NavLink to="/audiovisualphotography"  className="navMenuItem">Audio Visual and photography</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/promotion" className="navMenuItem">Promotion</NavLink>
-                                    </li>
-
-                                    <li>
-                                        <NavLink to="/staticbranding" className="navMenuItem">Static Branding</NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink to="/hoarding" className="navMenuItem">Hoarding</NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink to="/printingcollaterals" className="navMenuItem">Printing and Collaterals</NavLink>
+                                        <NavLink to="/promotion"  className="navMenuItem">Promotion</NavLink>
                                     </li>
 
                                     <li>
-                                        <NavLink to="/softwareitProducts" className="navMenuItem">Software and IT Products</NavLink>
+                                        <NavLink to="/staticbranding"  className="navMenuItem">Static Branding</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink to="/hoarding"  className="navMenuItem">Hoarding</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink to="/printingcollaterals"  className="navMenuItem">Printing and Collaterals</NavLink>
+                                    </li>
+
+                                    <li>
+                                        <NavLink to="/softwareitProducts"  className="navMenuItem">Software and IT Products</NavLink>
                                     </li>
 
 
                                     <li>
-                                        <NavLink to="/eventmanagment" className="navMenuItem">Event Management Services</NavLink>
+                                        <NavLink to="/eventmanagment"  className="navMenuItem">Event Management Services</NavLink>
                                     </li>
 
                                     {/* <!--<li>
@@ -82,7 +82,7 @@ function Header() {
                             </li>
 
                             <li>
-                                <Router to="/campaigns" className="navMenuItem">Campaigns</Router>
+                                <Router to="/campaigns"  className="navMenuItem">Campaigns</Router>
                             </li>
 
                             <li className="has-submenu">
@@ -90,7 +90,7 @@ function Header() {
                                 <ul className="submenu">
 
                                     <li>
-                                        <NavLink to="/videos"  className="navMenuItem"><i className="mdi mdi-auto-fix"></i>Videos</NavLink>
+                                        <NavLink to="/videos" className="navMenuItem"><i className="mdi mdi-auto-fix"></i>Videos</NavLink>
                                     </li>
 
                                     <li>
@@ -111,7 +111,7 @@ function Header() {
                             </li>
 
                             <li>
-                                <NavLink to="/contact" className="navMenuItem">Contact</NavLink>
+                                <NavLink to="/contact"  className="navMenuItem">Contact</NavLink>
                             </li>
 
                         </ul>
