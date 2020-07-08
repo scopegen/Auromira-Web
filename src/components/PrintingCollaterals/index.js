@@ -17,7 +17,7 @@ function PrintingCollaterals() {
                         <div className="home-one-content">
                             <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; PRINTING AND COLLATERALS</h3>
                             <p className="text-light font-bold text-uppercase">&nbsp; Because, Every Brand has A Story to be Portrayed in the Form of Scripts. </p>
-                            <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                            <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
                               <p className="text-white">At Auromira Entertainment, we strongly believe that corporate identity is an important and inevitable element in branding. With an innate passion in graphic design, we help our clients strengthen their brand image through the effective use of collateral print materials and advertising.</p>
                             
                         </div>

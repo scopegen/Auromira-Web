@@ -16,7 +16,7 @@ function AudioVisualPhotography() {
                             <div className="home-one-content">
                                 <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; AUDIO VISUAL & PHOTOGRAPHY</h3>
                                 <p className="text-light font-bold text-uppercase">&nbsp; Because Every Picture Has A Story To Tell!</p>
-                                <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                                <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
                                 <p className="text-white">Auromira Entertainment specializes in Photography, Advertisements, Short Films and many more. For videos and films, pictures and more that attracts attention; to rock on the entertainment world, and to stay in people’s memories forever, come to Auromira Entertainment.</p>
 
                             </div>

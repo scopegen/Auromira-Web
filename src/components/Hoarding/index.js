@@ -16,7 +16,7 @@ function Hoarding() {
                         <div class="home-one-content">
                             <h3 class="text-white m-0 m-t-5 typewriter">&nbsp; HOARDINGS</h3>
                             <p class="text-light font-bold text-uppercase">&nbsp; Affordable, cost effective, dependable- these things pretty much sum up the profits of hoardings.</p>
-                            <a href="contact.html" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
+                            <a href="/contact" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
                               <p class="text-white">We, at Auromira Entertainment aim to reach out to the globe with the story of your brand, which, being comprised inside a single bracket with hoardings. Settled in Odisha, we proudly hold the title of being the best hoarding agency in Bhubaneswar.</p>
                             
                         </div>

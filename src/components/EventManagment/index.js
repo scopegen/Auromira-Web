@@ -17,7 +17,7 @@ function EventManagment() {
                         <div className="home-one-content">
                             <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; EVENTS</h3>
                             <p className="text-light font-bold text-uppercase">&nbsp; Behind every successful Event is a great Idea!</p>
-                            <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                            <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
                               <p className="text-white">Auromira Entertainment is your dream destination to all your events solutions. From fun incentive trips to spectacular party celebrations, Auromira Films can align your goals for event management in Bhubaneswar with a huge variety of celebration types. The journey from dream to reality is a creative path; Auromira Entertainment paves it for you!</p>
                             
                         </div>

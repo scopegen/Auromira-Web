@@ -14,7 +14,7 @@ function Photography() {
                             <div class="home-one-content">
                                 <h3 class="text-white m-0 m-t-5 typewriter">&nbsp; Photography</h3>
                                 <p class="text-light font-bold text-uppercase">&nbsp; Every picture has a story to tell!</p>
-                                <a href="contact.html" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
+                                <a href="/contact" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
 
                                 <p class="text-white">We exist in an otherwise dynamic era of image where the audiences want
                                 their visual senses to be treated to a feast of breathtaking and attention grabbing images.

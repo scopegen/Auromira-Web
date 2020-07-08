@@ -16,7 +16,7 @@ function Promotion() {
                             <div className="home-one-content">
                                 <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; PROMOTIONS</h3>
                                 <p className="text-light font-bold text-uppercase">&nbsp; Without Promotions Something Terrible Happens. It’s Called ‘Nothing’.</p>
-                                <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                                <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
                                 <p className="text-white">Auromira Entertainment has the power to stimulate the audience and incite a response from them. With the help of our productive experiential space, you can now engage your audience and derive quantifiable leads through our top list of promotional activities and branding campaigns in Bhubaneswar.</p>
 
                             </div>

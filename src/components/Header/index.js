@@ -90,7 +90,7 @@ function Header() {
                                 <ul className="submenu">
 
                                     <li>
-                                        <NavLink to="/videos" className="navMenuItem"><i className="mdi mdi-auto-fix"></i>Videos</NavLink>
+                                        <NavLink to="/video" className="navMenuItem"><i className="mdi mdi-auto-fix"></i>Videos</NavLink>
                                     </li>
 
                                     <li>

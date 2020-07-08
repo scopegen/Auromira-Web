@@ -14,7 +14,7 @@ function Design() {
                             <div className="home-one-content">
                                 <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; Design</h3>
                                 <p className="text-light font-bold text-uppercase">&nbsp; Design is creativity made visible!</p>
-                                <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                                <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
 
                                 <p className="text-white">We are a group of design enthusiasts with a passion for understanding the needs of our clients and remoulding and presenting it in the best possible way. Being one of the best graphic design companies in Odisha we strive to always make your brand stand out in this ever changing market. At Auromira, we combine art and logic to bring out the perfect blended result that is sure to make your business need compete.
  that is sure to make your business reach the top!</p>

@@ -108,7 +108,8 @@ const Home = () => {
           </div>
           <div className="row">
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="digital-marketing.html">
+            <Router to="/digitalmarketing">
+             
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -121,11 +122,12 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+             </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="audio-visual-photography.html">
+            <Router to="/audiovisualphotography">
+              
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -138,11 +140,13 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+                </Router>
+             
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="promotion.html">
+              
+              <Router to="/promotion">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -155,11 +159,12 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-16"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="static-branding.html">
+            
+              <Router to="/staticbranding">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -172,11 +177,12 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+             </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="hoarding.html">
+            
+              <Router to="/hoarding">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -189,11 +195,12 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+              </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInRight animated">
-              <a href="printing-collaterals.html">
+            
+              <Router to="/printingcollaterals">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -206,11 +213,12 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+             </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="software-it-products.html">
+              
+              <Router to="/softwareitProducts">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -223,11 +231,12 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+             </Router>
             </div>
 
             <div className="col-sm-3 col-xs-6 wow fadeInLeft animated">
-              <a href="events.html">
+           
+              <Router to="/eventmanagment">
                 <div className="features-box hover06">
                   <figure>
                     <img
@@ -240,7 +249,7 @@ const Home = () => {
                     </h5>
                   <p className="text-muted font-15"> </p>
                 </div>
-              </a>
+             </Router>
             </div>
           </div>
         </div>
@@ -291,7 +300,7 @@ const Home = () => {
         <div className="container text-center">
           <div className="col-sm-6 col-sm-offset-3">
             <div className="text-center about-one-content">
-              <h3 className="font-bold m-t-10">Our Recent Works</h3>
+            <Router to="/design"><h3 className="font-bold m-t-10">Our Recent Works</h3></Router>
             </div>
           </div>
           <ItemGridFilter />

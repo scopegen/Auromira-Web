@@ -17,7 +17,7 @@ function StaticBranding() {
                             <div className="home-one-content">
                                 <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; STATIC BRANDING</h3>
                                 <p className="text-light font-bold text-uppercase">&nbsp; Make Your Brand Sharable, Durable and Buzz-Worthy!</p>
-                                <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                                <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
                                 <p className="text-white">Auromira Entertainment specializes in 360 degree Branding solutions, a significant part of which is Static Branding. Our Company has mastered in bringing Brands to the limelight with the Static Branding services like Digital Wall Painting, Wall Wrapping, In-Shop Branding and many more.</p>
 
                             </div>

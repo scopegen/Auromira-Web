@@ -1,6 +1,6 @@
 import React from 'react';
 import IconBar from '../IconBar';
-
+import { Link as Router } from 'react-router-dom';
 function AboutUs() {
     window.scrollTo(0, 0); 
     return (
@@ -14,8 +14,8 @@ function AboutUs() {
                             <div class="home-one-content">
                                 <h3 class="text-white m-0 m-t-5 typewriter">&nbsp; About Us</h3>
                                 <p class="text-light font-bold text-uppercase">&nbsp; We Let Your Brand Communicate In The Best Way Possible, Because A Brand That Speaks Well, Does Well!</p>
-                                <a href="contact.html" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
-
+                                <Router to="/contact" className="button"><b>Get in Touch</b></Router> <a href="tel:8917335035"
+                                    className="button"><b>Call Now</b></a>
                                 </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ function AboutUs() {
 
                                 <h3 class="font-bold">Interested in work with us?</h3>
                                 <p class="text-muted font-15">Let’s build your project together. To get started, all you need to do is click this button and answer a few questions. Then we will get back to you within 24 hours.</p>
-                                <a href="contact.html"> <button type="submit" class="btn btn-custom m-t-20">Contact Now</button></a>
+                                <a href="/contact"> <button type="submit" class="btn btn-custom m-t-20">Contact Now</button></a>
                             </div>
                         </div>
                     </div>

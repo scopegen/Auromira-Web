@@ -15,7 +15,7 @@ function Videos() {
                             <div className="home-one-content">
                                 <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; Video</h3>
                                 <p className="text-light font-bold text-uppercase">&nbsp; Videography is a love affair with Life!</p>
-                                <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                                <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
 
                                 <p className="text-white">1-In this ever evolving, ever growing advertising and entertainment world, we always aim to be at the top. When it comes to video production, our only goal is to deliver your message in crystal clear, highly professional and attractive way, through our tailor-made, high-quality videos.
 Our team is formed of a number of professionals that are passionate about design, communication and emerging technologies, with a shared mission to offer you the best experience from the beginning to the end!</p>

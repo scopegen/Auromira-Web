@@ -16,7 +16,7 @@ function Campaigns() {
                             <div class="home-one-content">
                                 <h3 class="text-white m-0 m-t-5 typewriter">&nbsp; Campaigns</h3>
                                 <p class="text-light font-bold text-uppercase">&nbsp; We don’t aspire to be a part of the buzz, we aim to BE THE BUZZ!</p>
-                                <a href="contact.html" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
+                                <a href="/contact" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
 
                                 <p class="text-white">Auromira Entertainment is solely dedicated to help companies showcase their services in the
                                 best possible way through effective and attention grabbing Campaigns. We, at Auromira draw on our unique expertise
@@ -33,7 +33,7 @@ function Campaigns() {
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/og.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -46,7 +46,7 @@ function Campaigns() {
                                 </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/ww.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -60,7 +60,7 @@ function Campaigns() {
                             </div>
 
                             <div class="col-sm-6 col-md-4 animation">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/cr.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -77,7 +77,7 @@ function Campaigns() {
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/ap.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -90,7 +90,7 @@ function Campaigns() {
                                 </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/kd.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -104,7 +104,7 @@ function Campaigns() {
                             </div>
 
                             <div class="col-sm-6 col-md-4 videos">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/em.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -121,7 +121,7 @@ function Campaigns() {
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/fb.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -134,7 +134,7 @@ function Campaigns() {
                                 </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/gd.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -148,7 +148,7 @@ function Campaigns() {
                             </div>
 
                             <div class="col-sm-6 col-md-4 animation">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/hah.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -165,7 +165,7 @@ function Campaigns() {
                     <div class="port portfolio-masonry m-b-30">
                         <div class="portfolioContainer row">
                             <div class="col-sm-6 col-md-4 creative design">
-                                <Router to="/orimark">
+                                <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/agmo.jpg" class="thumb-img" alt="work-thumbnail" />
@@ -178,7 +178,7 @@ function Campaigns() {
                                 </Router>
                             </div>
                             <div class="col-sm-6 col-md-4 videos">
-                            <Router to="/orimark">
+                            <Router to="#">
                                     <div class="portfolio-masonry-box">
                                         <div class="portfolio-masonry-img">
                                             <img src="images/works/op.jpg" class="thumb-img" alt="work-thumbnail" />

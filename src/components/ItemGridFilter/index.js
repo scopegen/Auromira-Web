@@ -2,7 +2,7 @@ import React from 'react';
 import Isotope from 'isotope-layout';
 import './itemGridFilter.css';
 import NavLink from "../../utils/navLink";
-
+import { Link as Router } from 'react-router-dom';
 const ItemGridFilter = () => {
     // store the isotope object in one state
     const [isotope, setIsotope] = React.useState(null);
@@ -54,7 +54,7 @@ const ItemGridFilter = () => {
             <div className="container">
                 <div className="portfolioContainer row">
                     <div className="col-md-4 col-sm-6 filter-item videos">
-                        <a href="design.html">
+                    <Router to="/design">
                             <div className="portfolio-masonry-box">
                                 {/* <div className="portfolio-masonry-img"> */}
                                     <img src="images/home-products/3C_20international.jpg" className="thumb-img" alt="work-thumbnail" />
@@ -64,10 +64,10 @@ const ItemGridFilter = () => {
                                     <p>Logo Design</p>
                                 </div>
                             </div>
-                        </a>
+                       </Router>
                     </div>
                     <div className="col-md-4 col-sm-6 filter-item animation">
-                        <a href="design.html">
+                    <Router to="/design">
                             <div className="portfolio-masonry-box">
                                 <div className="portfolio-masonry-img">
                                     <img src="images/home-products/ALBA_card.jpg" className="thumb-img" alt="work-thumbnail" />
@@ -77,10 +77,10 @@ const ItemGridFilter = () => {
                                     <p>Card Design</p>
                                 </div>
                             </div>
-                        </a>
+                      </Router>
                     </div>
                     <div className="col-md-4 col-sm-6 filter-item design">
-                        <a href="design.html">
+                    <Router to="/design">
                             <div className="portfolio-masonry-box">
                                 <div className="portfolio-masonry-img">
                                     <img src="images/home-products/estetica.jpg" className="thumb-img" alt="work-thumbnail" />
@@ -90,10 +90,10 @@ const ItemGridFilter = () => {
                                     <p>Bag Design</p>
                                 </div>
                             </div>
-                        </a>
+                       </Router>
                     </div>
                     <div className="col-md-4 col-sm-6 filter-item design">
-                        <a href="design.html">
+                    <Router to="/design">
                             <div className="portfolio-masonry-box">
                                 <div className="portfolio-masonry-img">
                                     <img src="images/home-products/LPR.jpg" className="thumb-img" alt="work-thumbnail" />
@@ -103,10 +103,10 @@ const ItemGridFilter = () => {
                                     <p>Logo Design</p>
                                 </div>
                             </div>
-                        </a>
+                       </Router>
                     </div>
                     <div className=" col-md-4 col-sm-6 filter-item videos">
-                        <a href="design.html">
+                    <Router to="/design">
                             <div className="portfolio-masonry-box">
                                 <div className="portfolio-masonry-img">
                                     <img src="images/home-products/Orimark.jpg" className="thumb-img" alt="work-thumbnail" />
@@ -116,11 +116,11 @@ const ItemGridFilter = () => {
                                     <p>Logo Design</p>
                                 </div>
                             </div>
-                        </a>
+                      </Router>
                     </div>
 
                     <div className="col-md-4 col-sm-6 creative filter-item photography">
-                        <a href="design.html">
+                    <Router to="/design">
                             <div className="portfolio-masonry-box">
                                 <div className="portfolio-masonry-img">
                                     <img src="images/home-products/urbanyatra.jpg" className="thumb-img" alt="work-thumbnail" />
@@ -130,7 +130,7 @@ const ItemGridFilter = () => {
                                     <p>Creative Design</p>
                                 </div>
                             </div>
-                        </a>
+                      </Router>
                     </div>
                 </div>
             </div>

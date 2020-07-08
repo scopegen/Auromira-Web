@@ -16,7 +16,7 @@ function SoftwareITProducts() {
                         <div className="home-one-content">
                             <h3 className="text-white m-0 m-t-5 typewriter">&nbsp; SOFTWARE AND IT PRODUCTS</h3>
                             <p className="text-light font-bold text-uppercase">&nbsp; We Build Services To Minimize Work And Maximize Success.</p>
-                            <a href="contact.html" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
+                            <a href="/contact" className="button"><b>Get in Touch</b></a> <a href="tel:8917335035" className="button"><b>Call Now</b></a>
                               <p className="text-white">Auromira Entertainment is the perfect destination for companies planning to promote business with Web Designing or other Software and IT Products.
 Our Web Designing professionals are experts in analyzing, strategizing, developing and deploying the need of the simplest to the most complex Software and IT Solutions.</p>
                             

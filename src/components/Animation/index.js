@@ -15,7 +15,7 @@ function Animation() {
                             <div class="home-one-content">
                                 <h3 class="text-white m-0 m-t-5 typewriter">&nbsp; Animation</h3>
                                 <p class="text-light font-bold text-uppercase">&nbsp; Animation is the other name of Imagination!</p>
-                                <a href="contact.html" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
+                                <a href="/contact" class="button"><b>Get in Touch</b></a> <a href="tel:8917335035" class="button"><b>Call Now</b></a>
 
                                 <p class="text-white">
                                     The only formula of telling great stories is by designing and animating characters that your audience can instantly connect to. Placing your little story in the customer's story-gap is the key to success. At Auromira, we create compelling animations, motion graphics and explainer videos that communicate complex messages effortlessly. Our passion lies in telling your story to the world in the most engaging and effective way possible.</p>
